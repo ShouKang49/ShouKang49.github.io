@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    $('.btn').click(function(){
+    $('.deckSwitch').click(function(){
 
         var buttonId = $(this).attr('id');
 
-        $('.btn').removeClass('active');
+        $('.deckSwitch').removeClass('active');
         $(this).addClass('active');
 
         if(buttonId === 'all'){
