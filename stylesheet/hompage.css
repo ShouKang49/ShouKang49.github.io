@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    background-color: #000080;
+}
+
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+h5, .btn{
+    color: white;
+}
+
+section{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logoImage{
+    width: 300px;
+    height: 300px;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+.glass{
+    backdrop-filter: blur(10px);
+}
+
+#designSet, #codingSet{
+    padding: 2%;
+}
+
+.btn.active{
+    background-color: #007BFF;
+}

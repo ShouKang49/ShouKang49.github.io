@@ -1,0 +1,123 @@
+.navBarBackground{
+    background: linear-gradient(to bottom,  #EB7C27, #EC2227, #D14498);
+    height: 80px;
+}
+
+.bottomBorder{
+    background: linear-gradient(to top,  #EB7C27, #EC2227, #D14498);
+    height: 80px;
+    z-index: -90;
+}
+
+.particleFall{
+    width: 150px;
+    height: 150px;
+    top: -40%;
+    background: linear-gradient(to bottom, #EB7C27, #EC2227, #D14498);
+    background-size: 200%;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -100;
+    animation: fall 15s infinite, blob 10s infinite alternate;
+}
+
+.rise{
+    width: 150px;
+    height: 150px;
+    bottom: -40%;
+    background: linear-gradient(to top, #EB7C27, #EC2227, #D14498);
+    border-radius: 50%;
+    position: fixed;
+    z-index: -99;
+    animation: rise 15s infinite, blob 10s infinite alternate;
+}
+@keyframes fall{
+    0%{top: -20%}
+    20%{top: 0%}
+    80%{top: 85%}
+    100%{top: 100%}
+}
+
+@keyframes rise{
+    0%{bottom: -20%;}
+    30%{bottom: 0%;}
+    70%{bottom: 75%;}
+    100%{bottom: 100%}
+}
+
+@keyframes blob {
+    0%{border-radius: 50%}
+    25%{border-radius: 54% 46% 48% 52% / 33% 50% 50% 67% ;}
+    50%{border-radius: 54% 46% 31% 69% / 67% 32% 68% 33% ;}
+    80%{border-radius: 59% 41% 48% 52% / 28% 69% 31% 72% ;}
+    100%{border-radius: 59% 41% 29% 71% / 45% 32% 68% 55%  ;}
+}
+    
+.particleFall:nth-of-type(2n){
+    width: 100px;
+    height: 100px;
+}
+.particleFall:nth-of-type(3n){
+    width: 200px;
+    height: 200px;
+}
+.particleFall:nth-of-type(1){
+    left: 10%; 
+    animation-delay: 1s;
+}
+.particleFall:nth-of-type(2){
+    right: 25%;
+    animation-delay: 2s;
+}
+.particleFall:nth-of-type(3){
+    left: 45%;
+    animation-delay: 3s;
+}
+.particleFall:nth-of-type(4){
+    right: 10%;
+    animation-delay: 4s;
+}
+.particleFall:nth-of-type(5){
+    left: 30%;
+    animation-delay: 5s;
+}
+.particleFall:nth-of-type(6){
+    left: 50%;
+    animation-delay: 6s;
+}
+
+
+
+.rise:nth-of-type(2n){
+    width: 120px;
+    height: 120px;
+}
+.rise:nth-of-type(3n){
+    width: 230px;
+    height: 230px;
+}
+
+.rise:nth-of-type(1){
+    left: 20%;
+    animation-delay: 2s;
+}
+.rise:nth-of-type(2){
+    left: 50%;
+    animation-delay: 5s;
+}
+.rise:nth-of-type(3){
+    left: 70%;
+    animation-delay: 6s;
+}
+.rise:nth-of-type(4){
+    right: 10%;
+    animation-delay: 3s;
+}
+.rise:nth-of-type(5){
+    right: 55%;
+    animation-delay: 1s;
+}
+.rise:nth-of-type(6){
+    right: 40%;
+    animation-delay: 4s;
+}
