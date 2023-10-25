@@ -38,3 +38,8 @@ form{
 .btn.active{
     background-color: #007BFF;
 }
+
+.btn-group{
+    border-radius: 6px;
+    border: solid white 2px;
+}
