@@ -43,3 +43,8 @@ form{
     border-radius: 6px;
     border: solid white 2px;
 }
+
+.btn:hover{
+    background-color: grey;
+    color:white
+}
