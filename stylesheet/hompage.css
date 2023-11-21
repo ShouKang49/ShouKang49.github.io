@@ -64,3 +64,7 @@ form{
     min-width: 100%;
     min-height: 60%;
 }
+
+.nav-link{
+    color: white;
+}
