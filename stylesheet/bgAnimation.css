@@ -1,3 +1,8 @@
+body{
+    background-color: #000080;
+    height: 100%;
+}
+
 .navBarBackground{
     background: linear-gradient(to bottom,  #EB7C27, #EC2227, #D14498);
     height: 80px;
@@ -7,6 +12,10 @@
     background: linear-gradient(to top,  #EB7C27, #EC2227, #D14498);
     height: 80px;
     z-index: -90;
+}
+
+.nav-link{
+    color: white;
 }
 
 .particleFall{
