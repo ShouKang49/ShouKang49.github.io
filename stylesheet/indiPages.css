@@ -1,11 +1,15 @@
-h1, h2, h3, h4, h5, h6, .project-describers{
+.project-describers{
     color: white;
 }
 
-#projectName{
-    text-align: center;
+.project-title-headers{
+    color: darkgray;
 }
 
 .glass{
     backdrop-filter: blur(10px);
+}
+
+#section2{
+    text-align: center;
 }
