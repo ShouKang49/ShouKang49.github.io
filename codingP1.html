@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet/bgAnimation.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/indiPages.css">
 </head>
+
 <body>
     <!--Start of the nav bar-->
     <nav class="navbar navbar-expand-sm navBarBackground">
@@ -34,7 +37,60 @@
         </div>
     </nav>
     <!--End of the nav bar-->
-    
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row glass">
+                <h1 id="projectName">Brute Force Calculator</h1>
+                <div id="projectDetails" class="col-lg-6">
+                    <h4>Description</h4>
+                    <p id="projectDescription" class="project-describers">
+                        A simple calculator designed to calculate the time it would have taken for a person
+                        to decipher an encrypted message by brute forcing their way into finding the key.
+                    </p>
+                    <h4>Functions</h4>
+                    <p id="projectFunctions" class="project-describers">
+                        - Takes into account the cipher type that has been used <br>
+                        - Takes into account what is used for the cipher's key (depends on the cipher type) <br>
+                        - Takes into account what is the processing power of the computer it is using <br>
+                        - Calculates and displays the time it would take to crack <br>
+                    </p>
+                    <h4>Features</h4>
+                    <p id="projectFeatures" class="project-describers">
+                        - The final calculation is split into years, days, hours, minutes, and seconds
+                    </p>
+                    <h5>Variations: 2 current versions</h5>
+                    <p class="project-describers">
+                    <h6>Version 1: original</h6>
+                    <P class="project-describers">
+                        - Fixed options for all options<br>
+                        - Displayed time in only hours, minutes, and seconds
+                    </P>
+                    <h6>Version 2: improved</h6>
+                    <p class="project-describers">
+                        - Changed some options, users can now input rather than selecting from options <br>
+                        - Displayed time is now displayed in years and days in addition to the version 1 display
+                    </p>
+                    </p>
+
+                    <h4>Additional notes</h4>
+                    <p class="project-describers">
+                        - This code cannot handle incorrect inputs (both versions) <br>
+                        - Only has Symmetric and Modern Symmetric ciphers
+                    </p>
+                </div>
+
+                <div id="additionalInfo" class="col-lg-6">
+                    <h6>Clients: Personal</h6>
+                    <h6>Collaboraters: - </h6>
+                    <h6>Links</h6>
+                </div>
+            </div>
+
+            <h2>Additional images</h2>
+        </div>
+    </div>
+
     <div>
         <div class="particleFall"></div>
         <div class="particleFall"></div>
@@ -52,5 +108,8 @@
         <div class="rise"></div>
         <div class="rise"></div>
     </div>
+
+    <div class="bottomBorder"></div>
 </body>
+
 </html>

@@ -22,10 +22,6 @@ form{
     margin: auto;
 }
 
-.glass{
-    backdrop-filter: blur(10px);
-}
-
 #designSet, #codingSet{
     padding: 2%;
 }
