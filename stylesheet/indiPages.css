@@ -16,6 +16,8 @@
 
 .card{
     transition: transform 0.3s;
+    max-height: 300px;
+    overflow: hidden;
 }
 
 .card:hover{
