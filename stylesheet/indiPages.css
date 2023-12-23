@@ -13,3 +13,16 @@
 #section2{
     text-align: center;
 }
+
+.card{
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card .card-header{
+    text-align: center;
+    font-weight: bold;
+}
