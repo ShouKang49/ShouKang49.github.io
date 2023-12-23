@@ -18,6 +18,12 @@ body{
     color: white;
 }
 
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: lightgrey;
+    border-radius: 10px;
+}
+
 .particleFall{
     width: 150px;
     height: 150px;

@@ -42,6 +42,7 @@ form{
 
 .card {
     min-height: 181px;
+    transition: transform 0.3s;
 }
 
 .card .card-header{
@@ -64,4 +65,17 @@ form{
 
 #description{
     color: white;
+}
+
+.secondary-container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#face{
+    width: 50%; 
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
