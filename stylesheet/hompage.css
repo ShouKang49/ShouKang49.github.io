@@ -3,7 +3,7 @@ h1, h2{
     color: white;
 }
 
-h5, .btn{
+h4, h5, .btn{
     color: white;
 }
 
@@ -35,9 +35,19 @@ form{
     border: solid white 2px;
 }
 
-.btn:hover{
-    background-color: grey;
-    color:white
+.deckSwitch:hover{
+    color: black;
+    background-color: lightblue;
+}
+
+.btn-user-interactable{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.btn-user-interactable:hover{
+    background-color: orange;
+    font-weight: bold;
 }
 
 .card {

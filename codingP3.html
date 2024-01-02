@@ -38,6 +38,220 @@
     </nav>
     <!--End of the nav bar-->
 
+    <div class="container-fluid">
+        <div class="container">
+
+            <!--Section 1: Project details-->
+            <div class="row p-3">
+                <div class="glass">
+                    <div class="row p-2">
+                        <div id="additionalInfo" class="col-lg-6 col-md-12">
+
+                            <div class="pb-4">
+                                <h4 class="project-headers">Project Name</h4>
+                                <h2 id="projectName" class="project-describers">Brute Force Calculator</h2>
+                            </div>
+
+                            <div class="pb-4">
+                                <h4 class="project-headers">Clients</h4>
+                                <h5 class="project-describers">Personal</h5>
+                            </div>
+
+                            <div class="pb-4">
+                                <h4 class="project-headers">Collaboraters</h4>
+                                <h5 class="project-describers">Nil</h5>
+                            </div>
+
+                            <div class="pb-4">
+                                <h4 class="project-headers">Language</h4>
+                                <h5 class="project-describers">Python</h5>
+                            </div>
+
+                            <h4 class="project-headers">Links</h4>
+                        </div>
+
+                        <div id="projectDetails" class="col-lg-6 col-md-12">
+                            <div class="pb-4">
+                                <h4 class="project-headers">Description</h4>
+                                <p id="projectDescription" class="project-describers">
+                                    A simple calculator designed to calculate the time it would have taken for a person
+                                    to decipher an encrypted message by brute forcing their way into finding the key.
+                                </p>
+                                <h4 class="project-headers">Functions</h4>
+                                <p id="projectFunctions" class="project-describers">
+                                    - Takes into account the cipher type that has been used <br>
+                                    - Takes into account what is used for the cipher's key (depends on the cipher type)
+                                    <br>
+                                    - Takes into account what is the processing power of the computer it is using <br>
+                                    - Calculates and displays the time it would take to crack <br>
+                                </p>
+                                <h4 class="project-headers">Features</h4>
+                                <p id="projectFeatures" class="project-describers">
+                                    - The final calculation is split into years, days, hours, minutes, and seconds
+                                </p>
+                            </div>
+
+                            <div class="pb-4">
+                                <h5 class="project-describers">Variations: 2 current versions</h5>
+                                <p class="project-describers">
+                                <h6 class="project-describers">Version 1: original</h6>
+                                <P class="project-describers">
+                                    - Fixed options for all options<br>
+                                    - Displayed time in only hours, minutes, and seconds
+                                </P>
+                                <h6 class="project-describers">Version 2: improved</h6>
+                                <p class="project-describers">
+                                    - Changed input method, users can now type out inputs rather than selecting from
+                                    options <br>
+                                    - Displayed time is now displayed in years and days in addition to the version 1
+                                    display
+                                </p>
+                                </p>
+                            </div>
+
+
+                            <h4 class="project-describers">Additional notes</h4>
+                            <p class="project-describers">
+                                - This code cannot handle incorrect inputs (both versions) <br>
+                                - Only has Symmetric and Modern Symmetric ciphers <br>
+                                - All answers are estimates and may be incorrect
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of Section 1-->
+
+            <!--Section 2: images-->
+            <h2 class="project-describers" id="section2">Differences between versions</h2>
+
+            <div class="row p-5">
+
+                <div class="col-lg-4 col-md-12 pb-2">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <h5 class="card-header">User input</h5>
+                        <img src="images/CDP1/version 1 input.png" alt="input1" class="card-img-bottom pb-3">
+                        <img src="images/CDP1/verson 2 input.png" alt="input2" class="card-img-bottom">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 pb-2">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <h5 class="card-header">Calculation formula</h5>
+                        <img src="images/CDP1/version 1 formula.png" alt="formula1" class="card-img-bottom pb-3">
+                        <img src="images/CDP1/version 2 formula.png" alt="formula2" class="card-img-bottom">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 pb-2">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#modal3" style="height: 100%;">
+                        <h5 class="card-header">Answer display</h5>
+                        <img src="images/CDP1/version 1 answer.png" alt="answer" class="card-img-bottom pb-3">
+                        <img src="images/CDP1/version 2 answer.png" alt="answer" class="card-img-bottom">
+                    </div>
+                </div>
+            </div>
+
+            <!--Modal 1-->
+            <div class="modal fade" id="modal1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Menu displays</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!--Image 1-->
+                            <h6>Version 1 input</h6>
+                            <img src="images/CDP1/version 1 input.png" alt="version1" class="img-fluid pb-2">
+
+                            <!--Image 2-->
+                            <h6>Version 2 input</h6>
+                            <img src="images/CDP1/verson 2 input.png" alt="version2" class="img-fluid pb-2">
+
+                            <!--Log-->
+                            <h6>Log</h6>
+                            <p>
+                                - Version 1 forces users to selet options from a menu and input that menu option<br>
+                                - Version 2 allows for users to enter their own inputs rather than a menu option
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of Modal 1-->
+
+            <!--Modal 2-->
+            <div class="modal fade" id="modal2" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Formula used</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!--Image 1-->
+                            <h6>Version 1 formula</h6>
+                            <img src="images/CDP1/version 1 formula.png" alt="version1" class="img-fluid pb-2">
+
+                            <!--Image 2-->
+                            <h6>Version 2 formula</h6>
+                            <img src="images/CDP1/version 2 formula.png" alt="version2" class="img-fluid pb-2">
+
+                            <!--Log-->
+                            <h6>Log</h6>
+                            <p>
+                                - Version 1 only calculates the hours, minutes, and seconds <br>
+                                - Version 2 calculates to years, days, and includes version 1 original display
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of Modal 2-->
+
+            <!--Modal 3-->
+            <div class="modal fade" id="modal3" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Answer display</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!--Image 1-->
+                            <h6>Version 1 display</h6>
+                            <img src="images/CDP1/version 1 answer.png" alt="version1" class="img-fluid pb-2">
+
+                            <!--Image 2-->
+                            <h6>Version 2 display</h6>
+                            <img src="images/CDP1/version 2 answer.png" alt="version2" class="img-fluid pb-2">
+
+                            <!--Log-->
+                            <h6>Log</h6>
+                            <p>
+                                - Version 1 displays only hours, minutes, and seconds <br>
+                                - Version 2 displays years and days in addition to version 1's display
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of Modal 3-->
+        </div>
+        <!--End of Section 2-->
+    </div>
+    </div>
+
     <div>
         <div class="particleFall"></div>
         <div class="particleFall"></div>
