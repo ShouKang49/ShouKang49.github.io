@@ -28,3 +28,9 @@
     text-align: center;
     font-weight: bold;
 }
+
+.color-square{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
