@@ -57,6 +57,9 @@ form{
 
 .card .card-header{
     font-weight: bold;
+    background-color: transparent;
+    border: none;
+    text-align: center;
 }
 
 .card img{
