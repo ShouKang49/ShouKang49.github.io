@@ -30,4 +30,15 @@ $(document).ready(function(){
             }
         }
     });
+
+    const images = ['images/Wave 1.png', 'images/Wave 2.png'];
+    const interval = 500;
+    let index = 0;
+    function changeImage(){
+        $('#wave').attr('src', images[index]);
+
+        index = (index + 1) % images.length;
+    }
+
+    setInterval(changeImage, interval)
 });

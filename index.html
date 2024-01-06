@@ -215,24 +215,19 @@
 
             <!--Section 4: Contact me-->
             <section id="section4">
-                <div style="height: 25%;">
+                <div style="height: 25%; overflow: hidden;" class="p-5">
                     <h1>Contact me</h1>
-                    <form>
-                        <label for="name">Name:</label>
-                        <input type="text" class="form-control" name="nameInp" id="name"
-                            placeholder="Enter your prefered name" />
-
-                        <label for="email">Email:</label>
-                        <input type="email" name="emailInp" id="email" class="form-control"
-                            placeholder="Enter your email">
-
-                        <label>Message:</label>
-                        <textarea name="messageInp" id="message" cols="30" rows="10" class="form-control glass"
-                            placeholder="Enter your message"></textarea>
-
-                        <button type="submit" class="btn btn-user-interactable">Submit</button>
-                        <button type="reset" class="btn btn-user-interactable">Cancel</button>
-                    </form>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12 glass" >
+                            <img src="images/Wave 1.png" alt="wave" id="wave">
+                        </div>
+                        <div class="col-lg-9 col-md-12" id="contact">
+                            <h3 class="pt-5 pe-5 pb-3">Call me: 8254 9612</h3>
+                            <h3 class=" pe-5 pb-3">Email me: <a href="mailto:ongshoukang@gmail.com">ongshoukang@gmail.com</a></h3>
+                            <h4 class=" pe-5 pb-3"><a href="https://github.com/ShouKang49">GitHub</a></h4>
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
             <!--End of Section 4-->
@@ -256,7 +251,8 @@
         </div>
 
     </div>
-    <div class="bottomBorder"></div>
+
+    <footer class="bottomBorder"></footer>
 
     <script src="scripts/homepage.js" type="text/javascript"></script>
 </body>
