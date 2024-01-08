@@ -35,3 +35,11 @@
     background-color: white;
     border: solid black 2px;
 }
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: grey;
+}
